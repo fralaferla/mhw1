@@ -1,0 +1,92 @@
+:root{
+  --theme:khaki;
+}
+
+.header {
+  position: relative;
+  top:100px;
+  width: 100%; /* Set the width of the header */
+  height: 300px; /* Set the height of the header */
+  background-image: url('IMG_4336.JPEG'); /* Set the background image */
+  background-size: cover; /* Make sure the background image covers the entire header */
+  background-position: bottom; /* Center the background image */
+  text-align: center; /* Center the text horizontally */
+  color: white; /* Set text color to white */
+}
+
+/* CSS for the h1 text */
+.header h1 {
+  position: absolute;
+  top: 50%; /* Position the text in the vertical middle */
+  left: 50%; /* Position the text in the horizontal middle */
+  transform: translate(-50%, -50%); /* Center the text using translate */
+  margin: 0; /* Remove any default margin */
+  font-size: 32px; /* Adjust font size as needed */
+  /* You can add more styles as per your design */
+}
+nav{
+  position:fixed;
+  top:0;
+  width: 100%;
+  height: 75px;
+  background-color: var(--theme);
+  z-index: 1000;
+}
+li{
+  margin-left:0;
+  margin-right: 3px;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+a{
+  text-decoration: none;
+  color:white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section article{
+  
+  background-color: var(--theme);
+  width:600px;
+  height:600px;
+  margin:20px;
+}
+section{
+  margin-top:125px;
+  padding:75px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and ( max-width: 500px){
+  
+  section article{
+    width:100vw;
+    
+  }
+  
+}
+article img{
+  width:100%;
+  height:80%;
+  object-fit: cover;
+}
+article p{
+  background-color: var(--theme);
+}
+.footer{
+  background-color: var(--theme);
+  width:100%;
+  height:100px;
+}
+button img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+button{
+  width:600px;
+  height:600px;
+}
