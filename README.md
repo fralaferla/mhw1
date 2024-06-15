@@ -1,1 +1,1 @@
-### just a blogpage for excercise 
+### just a blogpage as homework 
