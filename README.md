@@ -1,2 +1,1 @@
-# mhw1
-check @media 
+### just a blogpage for excercise 
